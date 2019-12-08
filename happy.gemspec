@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "happy/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "happy"
+  spec.name          = "happy-greet"
   spec.version       = Happy::VERSION
   spec.authors       = ["akira noguchi"]
   spec.email         = ["guppy0356.nakira@gmail.com"]
